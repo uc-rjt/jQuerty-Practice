@@ -1,6 +1,44 @@
-$('h1').on('click', function(){
-    $('h1').css('color','purple');
+$('button').on('click', function(){
+    $('h1').slideUp().slideDown().animate({opacity: 0.5});
 });
+
+// $('button').on('click', function(){
+//     $('h1').animate({opacity: 0.5});
+// });
+
+// $('button').on('click', function(){
+//     $('h1').slideToggle();
+// });
+
+
+// $('button').on('click', function(){
+//     $('h1').slideDown();
+// });
+
+
+// $('button').on('click', function(){
+//     $('h1').slideUp();
+// });
+
+// $('button').on('click', function(){
+//     $('h1').fadeToggle();
+// });
+
+// $('h1').show();
+
+// $('h1').prepend("<button>New</button>");
+
+// $('h1').append("<button>New</button>");
+
+// $('h1').before("<button>New</button>");
+
+// $('h1').after("<button>New</button>");
+
+// $('button').remove();
+
+// $('h1').on('click', function(){
+//     $('h1').css('color','purple');
+// });
 
 
 // $(document).keypress((event)=>{
