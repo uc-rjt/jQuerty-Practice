@@ -1,6 +1,13 @@
 $('button').on('click', function(){
-    $('button').siblings().css({'color':'red'});
+
+    $('#div1').load('test.txt');
 });
+
+
+
+// $('button').on('click', function(){
+//     $('button').siblings().css({'color':'red'});
+// });
 
 // $('button').on('click', function(){
 //     $('button').next().css({'color':'red'});
