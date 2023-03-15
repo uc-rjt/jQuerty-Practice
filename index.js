@@ -1,6 +1,34 @@
 $('button').on('click', function(){
-    alert($('h1').outerWidth());
+    $('button').siblings().css({'color':'red'});
 });
+
+// $('button').on('click', function(){
+//     $('button').next().css({'color':'red'});
+// });
+
+// const ages = [1,2,3,4,5];
+
+// console.log(ages.find(1));
+
+// $('button').on('click', function(){
+//     $('html').children().css({'color':'red', 'background': 'red'});
+// });
+
+// $('button').on('click', function(){
+//     $('h1').parentsUntil('html').css({'background':'red'});
+// });
+
+// $('button').on('click', function(){
+//     $('h1').parents().css({'background':'red'});
+// });
+
+// $('button').on('click', function(){
+//     $('h1').parent().css({'background':'red'})
+// })
+
+// $('button').on('click', function(){
+//     alert($('h1').outerWidth());
+// });
 
 // $('button').on('click', function(){
 //     alert($('h1').outerHeight());
