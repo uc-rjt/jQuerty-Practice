@@ -1,6 +1,79 @@
 $('button').on('click', function(){
-    $('h1').slideUp().slideDown().animate({opacity: 0.5});
+    alert($('h1').outerWidth());
 });
+
+// $('button').on('click', function(){
+//     alert($('h1').outerHeight());
+// });
+
+// $('button').on('click', function(){
+//     alert($('h1').innerWidth());
+// });
+
+// $('button').on('click', function(){
+//     alert($('h1').innerHeight());
+// });
+
+// $('button').on('click', function(){
+//     alert($('h1').width());
+// });
+
+// $('button').on('click', function(){
+//     alert($('h1').height());
+// });
+
+// $('button').on('click', function(){
+//     $('h1').css('color', 'red');
+// });
+
+// $('button').on('click', function(){
+//     $('h1').toggleClass('big-title');
+// });
+
+// $('button').on('click', function(){
+//     $('h1').addClass('big-title');
+// });
+
+// $('button').on('click', function(){
+//     $('h1').empty();
+// });
+
+// $('button').on('click', function(){
+//     $('h1').remove();
+// });
+
+// $('button').on('click', function(){
+//     $('h1').before('<button>Click</button>')
+// });
+
+// $('button').on('click', function(){
+//     $('h1').after('<button>Click</button>')
+// });
+
+// $('button').on('click', function(){
+//     $('h1').prepend('<button>Click</button>')
+// });
+
+// $('button').on('click', function(){
+//     $('h1').append('<button>Click</button>')
+// });
+
+// $('button').on('click', function(){
+//     $('input:text').val('fillerText');
+// })
+
+// $('button').on('click', function(){
+//     $('h1').text('Hello world');
+// });
+
+
+// $('button').on('click', function(){
+//     $('h1').html('<h2>Hello world</h2>');
+// });
+
+// $('button').on('click', function(){
+//     $('h1').slideUp().slideDown().animate({opacity: 0.5});
+// });
 
 // $('button').on('click', function(){
 //     $('h1').animate({opacity: 0.5});
